@@ -159,6 +159,14 @@ nav a {
 	align-items: center;
 	justify-content: center;
 }
+
+.initech {
+	width: 100%;
+	height: 550px;
+	background-image: url("https://i.imgflip.com/1s7y17.jpg");
+	background-position: center center;
+}
+
 .services-container .title-img, .services-container .title-img img {
 	width: 100%;
 }
