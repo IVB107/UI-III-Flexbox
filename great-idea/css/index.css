@@ -209,6 +209,48 @@ main {
 	width: 100%;
 }
 
+.about-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.row-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 30px;
+	min-width: 200px;
+	border: 2px solid black;
+	width: 23%;
+}
+
+.box-title {
+	margin: 20px;
+}
+
+.box img {
+	height: 200px;
+	width: 0 auto;
+	border: 1px solid black;
+	align-self: center;
+}
+
+.box-text, .box button, .box img {
+	margin: 0px 20px 20px;
+}
+
 .services-container {
 	display: flex;
 	flex-direction: column;
